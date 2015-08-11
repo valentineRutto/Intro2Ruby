@@ -22,6 +22,7 @@ str.split(" ")
 //outputs ["my name is rose"]
 
 ////FUNCTIONS////
+//returning early
 def square(num)
 if  num==0
 return
@@ -30,3 +31,17 @@ while num!=0
 puts(num*num)
 num=num-1
 end
+
+//breaking out loops
+puts("Please type GIZMO")
+
+while true
+  input = gets.chomp
+  if input == "GIZMO"
+    break
+  end
+
+  puts("Try typing GIZMO again!")
+end
+
+puts("THANKS FOR TYPING GIZMO")
