@@ -21,3 +21,12 @@ str.split(" ")
 ["my" "name" "is" "rose].join(" ")
 //outputs ["my name is rose"]
 
+////FUNCTIONS////
+def square(num)
+if  num==0
+return
+end 
+while num!=0
+puts(num*num)
+num=num-1
+end
