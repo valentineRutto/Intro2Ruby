@@ -1,5 +1,6 @@
 def third_greatest(nums)
-    
+  nums.sort!
+    return nums[-3]
 end
 
 puts(
