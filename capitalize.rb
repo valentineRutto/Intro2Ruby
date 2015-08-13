@@ -1,7 +1,7 @@
 
 def capitalize_words(string)
     str=string.split
-    return str.map{|x| x.capitalize}.join(" ")
+    return str.map.each{|x| x.capitalize}.join(" ")
     
 end
 
