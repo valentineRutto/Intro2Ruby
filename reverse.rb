@@ -1,7 +1,8 @@
 def reverse(org_str)
-    reversed=''
+    reversed=""
     org_str.each_char do |char| 
-        reversed=char+org_str 
+        reversed=char+reversed
+        //adds char to the reversed string at the begining finally the string is reversd  
     end
         
     return reversed

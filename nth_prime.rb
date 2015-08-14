@@ -1,5 +1,10 @@
 def nth_prime(n)
-    
+    prime=[]
+     if (n%2!=0) && (n%3!=0)&&(n%(n-1) !=0)||(n==2)||(n==3)
+         prime+=n
+    end
+    return prime
+ 
     
     
     
