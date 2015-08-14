@@ -1,9 +1,10 @@
 def reverse(org_str)
-   
+    reversed=''
     org_str.each_char do |char| 
-        org_str=char+org_str  end
+        reversed=char+org_str 
+    end
         
-    return org_str
+    return reversed
 end
 puts(reverse("valentine"))
 puts(reverse("lamado"))
